@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio 01</title>
+
+    <link rel="stylesheet" href="./css/materialize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <h1>Pesquisa de usuários</h1>
+
+    <div class="inputDiv">
+      <input type="text" id="input" placeholder="Busca" />
+      <a id="button" class="waves-effect waver-light btn">BUSCAR</a>
+    </div>
+    <div class="users-container">
+      <div class="context-container">
+        <h3><span id="usersLabel">Nenhum usuário filtrado</span></h3>
+        <span id="usersList"></span>
+      </div>
+      <div class="context-container">
+        <h3><span id="statisticsLabel">Nada a ser exibido</span></h3>
+        <span id="statistics"></span>
+      </div>
+    </div>
+
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
