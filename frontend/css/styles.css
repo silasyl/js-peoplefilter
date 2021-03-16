@@ -43,16 +43,3 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-
-.country {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.add {
-  border-radius: 50%;
-  background-color: darkgreen;
-  color: white;
-  font-weight: bold;
-}
